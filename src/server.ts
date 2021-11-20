@@ -13,5 +13,5 @@ app.use(express.urlencoded({ extended: true }));
 TaskRoute(app);
 
 app.listen(port, () => {
-    //console.log("Server is running on port " + port);
+    console.log("Server is running on port " + port);
 });
